@@ -24,12 +24,18 @@
     <ClCompile Include="backspace.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
+    <ClCompile Include="menucontrol.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="player.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="backspace.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="menucontrol.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>

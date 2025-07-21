@@ -1,2 +1,9 @@
-﻿  player.cpp
+﻿  coolgame2.cpp
+  menucontrol.cpp
+  player.cpp
+C:\Users\Ирина\Desktop\Артемий\repos\coolgame2\coolgame2\player.cpp(25,12): warning C4244: инициализация: преобразование "Uint64" в "int", возможна потеря данных
+C:\Users\Ирина\Desktop\Артемий\repos\coolgame2\coolgame2\player.cpp(28,11): warning C4244: =: преобразование "Uint64" в "int", возможна потеря данных
+C:\Users\Ирина\Desktop\Артемий\repos\coolgame2\coolgame2\player.cpp(54,10): warning C4305: =: усечение из "double" в "float"
+  Создание кода...
+C:\Users\Ирина\Desktop\Артемий\repos\coolgame2\coolgame2\menucontrol.cpp(10,1): warning C4715: menucontrol::menu: значение возвращается не при всех путях выполнения
   coolgame2.vcxproj -> C:\Users\Ирина\Desktop\Артемий\repos\coolgame2\x64\Debug\coolgame2.exe
