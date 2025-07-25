@@ -1,12 +1,8 @@
 #pragma once
 #include <SDL3/SDL.h>
 #include <string>
-typedef struct 
-{
-	int frames;
-	int animationDelay;
-	int x;
-} animation;
+#include <anim.h>
+
 class player
 {
 public:
@@ -14,17 +10,19 @@ public:
 	~player();
 	void events();
 	void update();
+	void initanim(animation animations, int delay, int now,int n);
 	void draw();
-
+	SDL_FRect position;
 private:
 	SDL_Renderer* ren;
 	SDL_Texture* texture;
 	SDL_FRect rectr, srcr;
-	animation idle;
+	animationdata animations;
 	int currentind;
 	int lstup;
 	float speed;
 	float sizesprite;
+	int iswalk;
 };
 
 
